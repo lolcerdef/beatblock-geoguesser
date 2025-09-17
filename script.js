@@ -56,7 +56,7 @@ const ringcw = new Image();
 const ringccw = new Image();
 const slice = new Image();
 
-block.src = './beats/square.png';
+block.src = 'beats/square.png';
 hold.src = 'https://beatblock.wiki.gg/images/2/2e/Hold.png';
 side.src = 'https://beatblock.wiki.gg/images/6/6b/Side.png';
 mine.src = 'https://beatblock.wiki.gg/images/a/a0/Mine.png';
@@ -421,5 +421,6 @@ function getRandomInt(max) {
 }
 
 animate();
+
 
 
