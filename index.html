@@ -1,0 +1,41 @@
+<html>
+  <style>
+  @font-face {
+    font-family: 'disco';
+    src: url('https://static.tumblr.com/lfzhng6/Eu1t1x2dy/digitaldisco-thin.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  </style>
+
+
+  <head>
+    <title>Beatblock Level Display</title>
+  </head>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <body id="body">
+    <canvas id="displayCanvas" width="1000" height="1000"></canvas>
+  </body>
+  <script src="script.js"></script>
+
+
+  <form>
+    <select name='levelguessed'>
+      <option value='tutorialv1'>Tutorial V1</option>
+      <option value='tutorialv2'>Tutorial V2</option>
+      <option value='grittedstrings'>Gritted Strings</option>
+      <option value='sostressedeasy'>so stressed! Easy 5</option>
+      <option value='sostressedhard'>so stressed! Hard 7</option>
+      <option value='publicocautivoeasy'>publico cautivo Easy 5</option>
+      <option value='publicocautivohard'>publico cautivo Hard 9</option>
+      <option value='coderemix'>Code Remix</option>
+      <option value='iloveyouvbseasy'>ILOVEYOU.vbs Easy 4</option>
+      <option value='iloveyouvbseasy'>ILOVEYOU.vbs Hard 8</option>
+      <option value='lawrenceeasy'>Lawrence Easy 5</option>
+      <option value='lawrencehard'>Lawrence Hard 8</option>
+      <option value='terrabyteconnection'>+ERRABY+E CONNEC+10N</option>
+    </select><br/>
+    Beat Number: <input type='number' name='guessedbeat' /><br />
+    <input type='button' value='Submit' onclick='updateScore(this.form);' />
+  </form>
+</html>
