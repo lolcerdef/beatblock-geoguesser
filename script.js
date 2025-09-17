@@ -57,17 +57,17 @@ const ringccw = new Image();
 const slice = new Image();
 
 block.src = 'beats/square.png';
-hold.src = 'https://beatblock.wiki.gg/images/2/2e/Hold.png';
-side.src = 'https://beatblock.wiki.gg/images/6/6b/Side.png';
-mine.src = 'https://beatblock.wiki.gg/images/a/a0/Mine.png';
-mineHold.src = 'https://beatblock.wiki.gg/images/b/b8/Minehold.png';
-inverse.src = 'https://beatblock.wiki.gg/images/1/1f/Inverse.png';
-ringcw.src = 'https://beatblock.wiki.gg/images/3/33/Ringcw.png';
-ringccw.src = 'https://beatblock.wiki.gg/images/1/19/Ringccw.png';
-slice.src = 'https://beatblock.wiki.gg/images/a/ad/Slice.png';
+hold.src = 'beat/hold.png';
+side.src = 'beat/side.png';
+mine.src = 'beat/mine.png';
+mineHold.src = 'beat/minehold.png';
+inverse.src = 'beat/inverse.png';
+ringcw.src = 'beat/ringcw.png';
+ringccw.src = 'beat/ringccw.png';
+slice.src = 'beat/slice.png';
 
 const notetap = new Image();
-notetap.src = 'https://static.tumblr.com/lfzhng6/Sgbt2pnjo/tapnote.png'
+notetap.src = 'beat/notetap.png'
 
 const cranky = new Image();
 cranky.src = 'https://beatblock.wiki.gg/images/6/64/Circle.png';
@@ -421,6 +421,7 @@ function getRandomInt(max) {
 }
 
 animate();
+
 
 
 
