@@ -56,18 +56,18 @@ const ringcw = new Image();
 const ringccw = new Image();
 const slice = new Image();
 
-block.src = 'beats/square.png';
-hold.src = 'beat/hold.png';
-side.src = 'beat/side.png';
-mine.src = 'beat/mine.png';
-mineHold.src = 'beat/minehold.png';
-inverse.src = 'beat/inverse.png';
-ringcw.src = 'beat/ringcw.png';
-ringccw.src = 'beat/ringccw.png';
-slice.src = 'beat/slice.png';
+block.src = 'https://raw.githubusercontent.com/lolcerdef/beatblock-geoguesser/refs/heads/main/beats/square.png';
+hold.src = 'https://raw.githubusercontent.com/lolcerdef/beatblock-geoguesser/refs/heads/main/beats/hold.png';
+side.src = 'https://raw.githubusercontent.com/lolcerdef/beatblock-geoguesser/refs/heads/main/beats/side.png';
+mine.src = 'https://raw.githubusercontent.com/lolcerdef/beatblock-geoguesser/refs/heads/main/beats/mine.png';
+mineHold.src = 'https://raw.githubusercontent.com/lolcerdef/beatblock-geoguesser/refs/heads/main/beats/minehold.png';
+inverse.src = 'https://raw.githubusercontent.com/lolcerdef/beatblock-geoguesser/refs/heads/main/beats/inverse.png';
+ringcw.src = 'https://raw.githubusercontent.com/lolcerdef/beatblock-geoguesser/refs/heads/main/beats/ringcw.png';
+ringccw.src = 'https://raw.githubusercontent.com/lolcerdef/beatblock-geoguesser/refs/heads/main/beats/ringccw.png';
+slice.src = 'https://raw.githubusercontent.com/lolcerdef/beatblock-geoguesser/refs/heads/main/beats/slice.png';
 
 const notetap = new Image();
-notetap.src = 'beat/notetap.png'
+notetap.src = 'https://raw.githubusercontent.com/lolcerdef/beatblock-geoguesser/refs/heads/main/beats/tapnote.png'
 
 const cranky = new Image();
 cranky.src = 'https://beatblock.wiki.gg/images/6/64/Circle.png';
@@ -421,6 +421,7 @@ function getRandomInt(max) {
 }
 
 animate();
+
 
 
 
